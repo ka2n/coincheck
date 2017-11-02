@@ -8,7 +8,7 @@ type TickerResponse struct {
 	Ask       float64 `json:"ask"`
 	High      float64 `json:"high"`
 	Low       float64 `json:"low"`
-	Volume    float64 `json:"volume,string"`
+	Volume    float64 `json:"volume"`
 	Timestamp int     `json:"timestamp"`
 }
 
